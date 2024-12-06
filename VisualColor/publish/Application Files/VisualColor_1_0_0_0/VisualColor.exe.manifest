@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VisualColor.exe" version="1.0.0.0" publicKeyToken="04db9ccc36b6d017" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="vclogo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VisualColor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="VisualColor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VisualColor.exe" size="256960">
+      <assemblyIdentity name="VisualColor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>flgiHbBqvn7C3KJ5JPeQOALJOFBThPRZcvXCcjfNByA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="image.ico" size="3098">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>P3kaxn9ck1Q7T9ctl0hERJgajY8JrQTTG2nQ7Mty0b4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images.ico" size="209762">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9KawTbNg4qSzC/2RFLZmEHOUXMbDiZrmfE6QVAzdxFs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vclogo.ico" size="26006">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6rkCXK328vluaUiDecCnuamaLVtBEo8OrSB1I7vDj20=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="VisualColor.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DARKOLIVE\derya" issuerKeyHash="0fff0f6293f1ca9a7f201db7fd162cb6e3ebfc6e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EIYMgJi1QOhePyfbnQJ9z3z6L6j3sXN2lohzhSBsxzo=</DigestValue></Reference></SignedInfo><SignatureValue>Imo2TmunZ6BNOIv+bCUb7I9KFI4AqoYlJD9DeNdfLQlM1Oh5bpjmoqYGpa12UeCTc7+dF0TUuh5LS7pO9La4XYRfjJWMQ/2jubmyRKi092j+0pXp7cq3jmehAhJQVIxXFf/JrV6m4BoG1S1+p3AzimDsMfbEp7U9X7V6hbht13Q=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nZLhBpeMTcjY/Q9a1d2ApTsJYmXoiwu47aMQ56JOu0erTByCYIpaqfBF5O8ASMdmtJgZrwhIyjKxoZ3zuJkY5DgVczrJy18Y3X0L7RG0mK9SIyWocRbwN329w/fWtuuJqM4/MyW2CDYpJl5pNbkEeLAPR93wJwh5jwpvG2hWNGk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3ac76c20857388967673b1f7a82ffa7ccf7d029ddb273f5ee840b598800c8610" Description="" Url=""><as:assemblyIdentity name="VisualColor.exe" version="1.0.0.0" publicKeyToken="04db9ccc36b6d017" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DARKOLIVE\derya</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>TmfMsrxEJU3d6tr+Vwwd5HU77qYDUpWd+2ITtZtHcbk=</DigestValue></Reference></SignedInfo><SignatureValue>LOzVEZm+O+FsBpgwZoH+EahSZsOL3Z5wve7RTxMNjxbsRQzAbNZYIhdkH1OKxlXqfcMbuxYXfOF//8O3Le3peF2sggeLgcIF7ZqR9f+uUyUrzMdRHyryqDvQe+viAi/ZqF0rll3OKsPKKzzhN/OKeqENK4PR07JV6VqH1ViwRhk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nZLhBpeMTcjY/Q9a1d2ApTsJYmXoiwu47aMQ56JOu0erTByCYIpaqfBF5O8ASMdmtJgZrwhIyjKxoZ3zuJkY5DgVczrJy18Y3X0L7RG0mK9SIyWocRbwN329w/fWtuuJqM4/MyW2CDYpJl5pNbkEeLAPR93wJwh5jwpvG2hWNGk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQfrpP38GlQ5RFu+x2LQZgBjANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4ARABBAFIASwBPAEwASQBWAEUAXABkAGUAcgB5AGEwHhcNMjQwODExMTIxMTAxWhcNMjUwODExMTgxMTAxWjApMScwJQYDVQQDHh4ARABBAFIASwBPAEwASQBWAEUAXABkAGUAcgB5AGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ2S4QaXjE3I2P0PWtXdgKU7CWJl6IsLuO2jEOeiTrtHq0wcgmCKWqnwReTvAEjHZrSYGa8ISMoysaGd87iZGOQ4FXM6yctfGN19C+0RtJivUiMlqHEW8Dd9vcP31rbriajOPzMltgg2KSZeaTW5BHiwD0fd8CcIeY8KbxtoVjRpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAXbKfHBfh5BQTf9/ENC7ALyF8vmqT6/MYwhQzHorHjX+g1tAKlD6txqzricy0dc1oFMo2tjIuX0LkcQ08IeIuhtsxvnT0aCCwqu+qHyYwz9/nKNOsaz6Gw4H+khjKOvtGhtet8PsmbqLQiCahQ+cbZShK5WgN7KDYgNrs4ycNuis=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

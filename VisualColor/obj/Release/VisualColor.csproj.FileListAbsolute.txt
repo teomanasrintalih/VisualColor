@@ -1,0 +1,14 @@
+C:\Users\derya\source\repos\VisualColor\VisualColor\bin\Release\VisualColor.exe.config
+C:\Users\derya\source\repos\VisualColor\VisualColor\bin\Release\VisualColor.exe.manifest
+C:\Users\derya\source\repos\VisualColor\VisualColor\bin\Release\VisualColor.application
+C:\Users\derya\source\repos\VisualColor\VisualColor\bin\Release\VisualColor.exe
+C:\Users\derya\source\repos\VisualColor\VisualColor\bin\Release\VisualColor.pdb
+C:\Users\derya\source\repos\VisualColor\VisualColor\obj\Release\VisualColor.csproj.AssemblyReference.cache
+C:\Users\derya\source\repos\VisualColor\VisualColor\obj\Release\VisualColor.Form1.resources
+C:\Users\derya\source\repos\VisualColor\VisualColor\obj\Release\VisualColor.Properties.Resources.resources
+C:\Users\derya\source\repos\VisualColor\VisualColor\obj\Release\VisualColor.csproj.GenerateResource.cache
+C:\Users\derya\source\repos\VisualColor\VisualColor\obj\Release\VisualColor.csproj.CoreCompileInputs.cache
+C:\Users\derya\source\repos\VisualColor\VisualColor\obj\Release\VisualColor.exe.manifest
+C:\Users\derya\source\repos\VisualColor\VisualColor\obj\Release\VisualColor.application
+C:\Users\derya\source\repos\VisualColor\VisualColor\obj\Release\VisualColor.exe
+C:\Users\derya\source\repos\VisualColor\VisualColor\obj\Release\VisualColor.pdb
